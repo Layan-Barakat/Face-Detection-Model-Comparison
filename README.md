@@ -24,6 +24,12 @@ Compares **Haar Cascade**, **OpenCV DNN (Caffe)**, and **YOLOv8** face detectors
 └─ README.md
 ```
 
+> Note: The Caffe model files (`deploy.prototxt` and `res10_300x300_ssd_iter_140000.caffemodel`)
+> are standard OpenCV resources and are **not included in this repo**.
+> Download them from:
+> https://github.com/opencv/opencv/tree/master/samples/dnn/face_detector
+> and place them in the `models/` folder before running the script.
+
 > Put the **Caffe model files** in `models/`:
 > - `deploy.prototxt`
 > - `res10_300x300_ssd_iter_140000.caffemodel`
